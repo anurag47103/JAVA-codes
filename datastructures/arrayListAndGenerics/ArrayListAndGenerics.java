@@ -16,7 +16,7 @@ public class ArrayListAndGenerics {
 		
 		List<Integer> arr2 = new ArrayList();  //make the object of List so that we can change it we need 
 		arr2.add(45);
-//		arr2.add("orange"); (error) only integer values can be stored
+//		arr2.add("orange"); (error) only integer values can be stored here
 		
 		Pair<String , Integer> p1 = new Pair("hey", 5);	
 		Pair<Integer , Float>  p2 = new Pair(78 , 4.3f);
