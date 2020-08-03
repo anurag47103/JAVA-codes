@@ -15,7 +15,7 @@ public class PalindromeByRecursion {
 		if(s.charAt(0) == s.charAt(l-1)) {
 			return palindrome(s.substring(1 , l-1));
 		}
-		else return false;
+		else return false; 
 	}
 	
 	static boolean palindrome(String s , int start , int end) {
