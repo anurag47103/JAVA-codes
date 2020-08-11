@@ -36,6 +36,7 @@ public class ArrayDivideGame {
             }
             if(broke%2==0) System.out.println("Ashish");
             else System.out.println("Jeel");
+            sc.close();
             }
             
         }

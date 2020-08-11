@@ -22,7 +22,9 @@ public class tripletsZeroSum {
 			}
 			else System.out.println("0");
 		}
+		sc.close();
 	}
+	
 }
 	
 	class Triplet3

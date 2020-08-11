@@ -7,7 +7,7 @@ public class PascalTriangle1 {
 		Scanner sc = new Scanner(System.in);
 		
 		int line = sc.nextInt();
-		
+		sc.close();
 		for(int i=0 ; i<line ; i++) {
 			
 			for(int j=0 ; j<line-i-1 ;j++ ) System.out.print(" ");

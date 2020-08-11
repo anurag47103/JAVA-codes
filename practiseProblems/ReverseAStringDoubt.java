@@ -21,6 +21,7 @@ public class ReverseAStringDoubt {
 //			if(!a[i].isEmpty()) System.out.print(a[i] + " ");;
 //		}
 	System.out.println(reverseWords(s));
+	sc.close();
 		
 	}
 	 public static String reverseWords(String s) {

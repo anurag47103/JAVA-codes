@@ -6,8 +6,8 @@ public class SumOfSubsetByRecursion {
 		
 		int[] arr = {10 ,5 ,2 ,3 ,6};
 		int sum = 8;
-		int current[] = new int[arr.length];
-		System.out.println(sumOfSubset2(arr , arr.length , 8));
+		
+		System.out.println(sumOfSubset2(arr , arr.length , sum));
 	}
 	
 	static int sumOfSubset(int[] arr , int sum , int[] current , int index) {

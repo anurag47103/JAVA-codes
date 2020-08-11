@@ -31,6 +31,7 @@ public class BubblesortAlgo {
 		for (int item:a) {  //for each loop
 			System.out.print(item + "  ");
 		}
+		sc.close();
 	}
 
 }

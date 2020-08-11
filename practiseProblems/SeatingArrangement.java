@@ -61,6 +61,7 @@ public class SeatingArrangement {
         		continue;
         	}
          }
+        sc.close();
 		} 
 	}
 	 

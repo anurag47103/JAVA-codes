@@ -5,7 +5,7 @@ public class PalindromeString {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
-		int reverseNum = 0;
+		
 		
 		String name = sc.next();
 		
@@ -26,7 +26,7 @@ public class PalindromeString {
 			
 		}if(isPalindrome) System.out.println("YES");
 			else System.out.println("NO"); 
-		
+		sc.close();
 		}
 
 	}

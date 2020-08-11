@@ -18,7 +18,7 @@ public class PowerSetBitwise {
 			System.out.println();
 			
 		}
-		
+		sc.close();
 	}
 
 }

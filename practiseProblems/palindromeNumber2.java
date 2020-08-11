@@ -25,6 +25,7 @@ public class palindromeNumber2 {
 		System.out.println(reverse);
 		if(num==reverse) System.out.println("it is a Palindrome number");
 		else System.out.println("not a Palindrome number");
+		sc.close();
 	}
 
 }

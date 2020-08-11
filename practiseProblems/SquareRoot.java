@@ -38,6 +38,6 @@ public class SquareRoot {
 				}System.out.println(sqrt1);
 			}
 		}
-	
+		sc.close();
 	}
 }

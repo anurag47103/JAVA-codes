@@ -6,6 +6,8 @@ public class Pattern11 {
 		
 		Scanner sc =new Scanner(System.in);
 		int n= sc.nextInt();
+		sc.close();
+		
 		int num2=1;
 		int num1=1;
 			for(int i=1 ;i<=n ; i++) {

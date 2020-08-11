@@ -1,7 +1,6 @@
 package videocourse;
 import java.util.Scanner;
 import java.util.Stack;
-import java.util.Arrays;
 
 public class BalancedBracketsByStacks {
 
@@ -31,7 +30,7 @@ public class BalancedBracketsByStacks {
 			    }
 			    if(st.isEmpty()) System.out.println("balanced");
 			    else System.out.println("not balanced");
-			   
+			    sc.close();
 			    
 			}
 		}

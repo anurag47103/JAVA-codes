@@ -24,6 +24,7 @@ public class GFG {
 			}
 			else System.out.println("0");
 		}
+		sc.close();
 	}
 }
 class Triplet2 {

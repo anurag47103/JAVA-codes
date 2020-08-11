@@ -1,7 +1,7 @@
 package topicQuestions.recursion;
 import java.util.Scanner;
 import java.util.ArrayList;
-import java.util.List;
+
 public class JosephusProblem {
 
 	public static void main(String[] args) {
@@ -17,6 +17,7 @@ public class JosephusProblem {
 		System.out.println(jp(arr ,0 , k));
 		System.out.println(jp2(n , k));
 
+		sc.close();
 	}
 	
 	static int jp(ArrayList<Integer> arr ,int start , int k) {

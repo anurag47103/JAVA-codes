@@ -42,7 +42,7 @@ public class MatrixMultiplication {
 			}System.out.println();
 		}
 		
-		
+		sc.close();
 	}
 
 }

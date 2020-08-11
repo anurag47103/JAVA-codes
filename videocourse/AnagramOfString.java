@@ -1,6 +1,5 @@
 package videocourse;
 import java.util.Scanner;
-import java.util.regex.*;
 public class AnagramOfString {
 
 	public static void main(String[] args) {
@@ -59,6 +58,7 @@ public class AnagramOfString {
 		}else  System.out.println("not Anagram");
 		
 			}
+		sc.close();
 		}
 }
 	

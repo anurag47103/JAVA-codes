@@ -45,7 +45,7 @@ public class RotateAnArray {
 
 	static int[] rotate3(int[] a , int n , int d) {      //best solution O(n) time and O(1) space
 		
-		reverse(a , 0 , n-d);
+		reverse(a , 0 , n-d-1);
 		reverse(a , d , n-1);
 		reverse(a , 0 , n-1);
 		return a;

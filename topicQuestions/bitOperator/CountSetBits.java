@@ -8,6 +8,7 @@ public class CountSetBits {
 		int n = sc.nextInt();
 		
 		System.out.println(countSetBits(n));
+		sc.close();
 
 	}
 	static int countSetBits(int n) {

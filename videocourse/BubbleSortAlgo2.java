@@ -30,6 +30,7 @@ public class BubbleSortAlgo2 {
 		for(int item: a) {
 			System.out.print(item + " ");
 		}
+		sc.close();
 	}
 
 }

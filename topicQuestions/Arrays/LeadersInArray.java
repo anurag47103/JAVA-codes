@@ -12,18 +12,17 @@ public class LeadersInArray {
 
 		
 	}
-	static ArrayList<Integer> leaders(int[] a , int n) {
+	static ArrayList<Integer> leaders(int[] a , int n) {   //My Solution 
 		ArrayList<Integer> leaders = new ArrayList<>();
 		leaders.add(a[0]);
-		int max = 0;
 		
 		for(int i=1 ; i<n ; i++) {
-			boolean smallest = true;
+			
 			for(int j=0 ; j<leaders.size() ; j++) {
 				if(a[i] >= leaders.get(j)) {
 					leaders.remove(j);
 					j--;
-					smallest = false;
+					
 				}
 				
 			}

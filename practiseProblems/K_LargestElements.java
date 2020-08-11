@@ -37,5 +37,6 @@ public class K_LargestElements {
 	             }
 	             System.out.println();
 	        }
+	        sc.close();
 		}                 
 	}

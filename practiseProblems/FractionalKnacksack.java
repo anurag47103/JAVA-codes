@@ -47,5 +47,6 @@ public class FractionalKnacksack {
         }
         
         System.out.println(getOptimalValue(capacity,n, values, weights));
+        sc.close();
     }
 }

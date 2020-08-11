@@ -18,7 +18,7 @@ public class FibonacciNumber {
 		a=b;
 		b=c;
 		System.out.println(c);
-		
+		sc.close();
 		}
 
 	}

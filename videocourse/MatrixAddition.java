@@ -43,6 +43,7 @@ public class MatrixAddition {
 				System.out.print(c[i][j] + " ");
 			}System.out.println();
 		}
+		sc.close();
 	}
 
 }

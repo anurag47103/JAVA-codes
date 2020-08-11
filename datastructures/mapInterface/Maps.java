@@ -1,11 +1,9 @@
 package datastructures.mapInterface;
 import java.util.ArrayDeque;
 import java.util.HashMap;
-import java.util.LinkedList;
 import java.util.Map;
-import java.util.Queue;
 import java.util.Scanner;
-import java.util.Map;
+
 
 public class Maps {
 
@@ -63,6 +61,6 @@ public class Maps {
 	        }//n
 	        System.out.println();
 	    } //t
-	    
+	    sc.close();
 	}
 }	 

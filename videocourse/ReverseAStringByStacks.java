@@ -24,6 +24,7 @@ public class ReverseAStringByStacks {
 		       if(st.isEmpty() == false)  System.out.print(".");
 		    }
 		    System.out.println();
+		    sc.close();
 		}
 	}
 }

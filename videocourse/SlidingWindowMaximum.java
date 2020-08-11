@@ -13,7 +13,9 @@ public class SlidingWindowMaximum {
 		int k = sc.nextInt();
 		for(int item : maxSlidingWindow(nums , k)) {
 			System.out.println(item + " ");
+			
 		}
+		sc.close();
 	}
 		    
 			

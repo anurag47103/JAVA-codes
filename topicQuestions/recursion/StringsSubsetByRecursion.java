@@ -3,7 +3,7 @@ package topicQuestions.recursion;
 public class StringsSubsetByRecursion {
 
 	public static void main(String[] args) {
-		String s = "pple";
+		
 		subSet("ABC" , 0 ,"");
 		
 	}

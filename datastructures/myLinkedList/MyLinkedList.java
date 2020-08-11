@@ -57,7 +57,7 @@ package datastructures.myLinkedList;
 		}
 	}
 	
-	public void removeAll() {
+	public void clear () {
 		Node<E> temp = head;
 		Node<E> temp2 = head;
 		while(temp.next != null) {
@@ -116,18 +116,13 @@ package datastructures.myLinkedList;
 	
 	public boolean contains(E value) {
 		Node<E> temp = head;
-		if(head==null) return false;
-		if(temp.next == null) {
-			if(temp.data==value) return true;
-			else return false;
-		}
-		do{
+
+		while(temp != null) {
 			if(temp.data == value) {
 				return true;
 			}
 			temp = temp.next;
-		}while(temp.next != null);
-		
+		}
 		return false;
 	}
 	
@@ -149,6 +144,17 @@ package datastructures.myLinkedList;
 	public boolean isEmpty() {
 		if(head == null) return true;
 		else return false;
+		
+	}
+	
+	public void removeAll(MyLinkedList<E> a) {
+		Node<E> temp = a.head;
+		int i=0;
+		while(temp != null){
+			if(contains(temp.data)) remove(i);
+			temp = temp.next;
+			i++;
+		}
 		
 	}
 

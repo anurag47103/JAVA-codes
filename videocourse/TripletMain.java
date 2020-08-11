@@ -16,6 +16,7 @@ class TripletMain {
 			if(g.findTriplets(a, n)) System.out.println("1");
 			else System.out.println("0");
 	}
+		sc.close();
   }
 }
 

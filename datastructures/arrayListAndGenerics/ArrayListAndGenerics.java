@@ -4,7 +4,7 @@ public class ArrayListAndGenerics {
 
 	public static void main(String[] args) {
 				
-		ArrayList arr1 = new ArrayList();
+		ArrayList arr1 = new ArrayList<>();
 		arr1.add("mango");
 		arr1.add(76);
 		
@@ -17,7 +17,7 @@ public class ArrayListAndGenerics {
 //		arr2.add("orange"); (error) only integer values can be stored 
 		
 		Pair<String , Integer> p1 = new Pair("hey", 5);	
-		Pair<Integer , Float>  p2 = new Pair(78 , 4.3f);
+		Pair<Integer , Float>  p2 = new Pair<Integer, Float>(78 , 4.3f);
 		 
 		p1.getDescription();
 		p2.getDescription();

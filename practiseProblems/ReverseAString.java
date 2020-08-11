@@ -6,7 +6,7 @@ public class ReverseAString {
 			Scanner sc = new Scanner(System.in);
 			String s = sc.nextLine();
 			System.out.print(reverseWords(s));
-			
+			sc.close();
 	}
 
 	public static String reverseWords(String s) {

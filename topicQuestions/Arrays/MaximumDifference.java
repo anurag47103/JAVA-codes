@@ -2,11 +2,11 @@ package topicQuestions.Arrays;
 
 public class MaximumDifference {
 
-	public static void main(String[] args) {
-		int a[] = {10,9,5,2,-1,2};
-		int n = a.length;
+	public static void main(String[] args)  {    
+		int a[] = {10,9,5,2,-1,2};       
+		int n = a.length;     
 		System.out.println(maximumDiff3(a , n ));
-		
+		           
 
 	}
 	static int maximumDiff(int[] a , int n) {    //Naive Solution O(n^2)
@@ -46,7 +46,7 @@ public class MaximumDifference {
 		return max;
 	}
 
-	static int maximumDiff3(int[] a , int n ) {  //Best Solution O(n)
+	public static int maximumDiff3(int[] a , int n ) {  //Best Solution O(n)
 		int max = a[1] - a[0];
 		int minValue = a[0];
 		

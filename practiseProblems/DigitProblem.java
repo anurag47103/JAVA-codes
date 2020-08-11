@@ -23,7 +23,7 @@ public class DigitProblem {
 	    for(long item :a){
 	        System.out.print(item);
 	    }
-	   
+	    sc.close();
 	}
 	}
 

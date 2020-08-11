@@ -26,6 +26,7 @@ public class NumberOfSquares {
 		
 		GP obj1 = new GP();
 		System.out.println(obj1.termOfGP(a , b ,n));
+		sc.close();
      
   }
    

@@ -15,7 +15,7 @@ public class MinimumCost {
 	           arr[i] = sc.nextInt();
 	       }
 	       System.out.print(Solve(k , arr));
-	   //    sc.close();
+	       sc.close();
 	    }
 	static long Solve(int k, int[] arr){				
 	        // Write code here

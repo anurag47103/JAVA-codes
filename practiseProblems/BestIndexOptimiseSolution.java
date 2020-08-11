@@ -1,9 +1,6 @@
 package practiseProblems;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
 import java.util.Scanner;
-import java.util.StringTokenizer;
 
 
 public class BestIndexOptimiseSolution {
@@ -37,6 +34,7 @@ public class BestIndexOptimiseSolution {
 			if(sum>max) max = sum;
 		}
 		System.out.println(max);
+		sc.close();
 	}	
 
 	static int lastIndex(int numOfElements , int currentIndex) {

@@ -31,7 +31,7 @@ public class SelectionSortALgo {
 		for(int item:a) {
 			System.out.print(item + " ");
 		}
-	
+		sc.close();
 	}
 		
 }

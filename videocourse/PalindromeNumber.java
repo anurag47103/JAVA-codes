@@ -67,7 +67,7 @@ public class PalindromeNumber {
 		if (reverseNumber == n) System.out.println("The number is a PALINDROME NUMBER ");
 		else System.out.println("The number is not a palindrome number");
 		
-		
+		sc.close();
 		
 	}
 }

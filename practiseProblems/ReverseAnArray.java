@@ -29,6 +29,6 @@ public class ReverseAnArray {
 		     System.out.println();
 		 }
 		 
-		    
+		 sc.close();
 		 }
 	}

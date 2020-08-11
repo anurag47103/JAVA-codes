@@ -31,7 +31,7 @@ public class AnagramOfStringArraySolution {
 		}if(isAnagram) System.out.println("Anagram");
 	     else System.out.print("not Anagram");
 		
-
+		sc.close();
 		}
 	}
 

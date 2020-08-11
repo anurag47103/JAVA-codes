@@ -24,6 +24,7 @@ public class Cipher {
 		for(int i=0 ; i<s.length();i++) {
 			System.out.print((char)b[i]);
 		}
+		sc.close();
 	}
 	static void change(int[] b , int key , String s , int start , int end , int i) {
 		

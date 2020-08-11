@@ -29,7 +29,7 @@ public class AnagramOfStringMySolution {
 		}
 		if(anagram == true & l1==l2) System.out.println("It's an ANAGRAM ");
 		else System.out.println("not an ANAGRAM");
-	
+		sc.close();
 	}
 
 }

@@ -25,7 +25,6 @@ public class BestIndex {
 			temp2++;
 		
     }
-		int lastIndex = 0;
 		int sum[] = new int[l];
 		
 		for(int i=0 ; i<l ; i++) {
@@ -36,6 +35,7 @@ public class BestIndex {
 		
 		Arrays.sort(sum);
 		System.out.println(sum[l-1]);
+		sc.close();
 	}	
 	static int lastIndex(int index , int numOfElements , int[] a) {
 		
@@ -51,6 +51,7 @@ public class BestIndex {
 		}
 		int lastIndex = index + magicNum -1;
 		return lastIndex;
+	
 	}
 			
 }

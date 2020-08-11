@@ -33,6 +33,7 @@ public class CandiesAsPerRating {
 			sum+=candies[i];
 		}
 		System.out.println(sum);
+		sc.close();
 	}
 
 }

@@ -5,15 +5,21 @@ public class MainClass {
 	public static void main(String[] args) throws Exception {
 				
 		MyLinkedList<Integer> ll = new MyLinkedList<>();
+		MyLinkedList<Integer> ll2 = new MyLinkedList<>();
 		
-//		ll.toAdd(56);
+		ll.toAdd(56);
 //		ll.toAdd(78);
-//		ll.toAdd(34);
+		ll2.toAdd(56);
+		
+		
+		ll.removeAll(ll2);
 		
 		
 		
-		ll.removeLast();
+		//System.out.println(ll.contains(2));
 		
+//		ll.removeLast();
+//		
 		ll.toPrintAll();
 		
 //		ll.toAdd("hey");
