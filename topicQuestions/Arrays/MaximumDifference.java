@@ -6,6 +6,7 @@ public class MaximumDifference {
 		int a[] = {10,9,5,2,-1,2};       
 		int n = a.length;     
 		System.out.println(maximumDiff3(a , n ));
+		System.out.println(maximumDiff2(a , n , 0 , 1));
 		           
 
 	}

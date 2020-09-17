@@ -7,6 +7,7 @@ public class SlidingWindowSum {
 		int sum = 33;
 		int n = a.length;
 		System.out.println(slidingWindowSum2(a , n , sum));
+		
 	}
 	static boolean slidingWindowSum(int a[] , int n , int sum) {   //My Solution time O(n) and space O(n)
 		ArrayDeque<Integer> window = new ArrayDeque<>();

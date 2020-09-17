@@ -8,7 +8,7 @@ public class MajorityElement {
 		System.out.println(majorityElement2(a , n));
 
 	}
-	static int majorityElement(int a[] , int n) {  //My Solution by sorting
+	static int majorityElement(int a[] , int n) {  //My Solution by sorting O(n*logn)
 		Arrays.sort(a);    
 		int count = 1;
 		for(int i=1 ; i<n ; i++) {
